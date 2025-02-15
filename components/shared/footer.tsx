@@ -11,11 +11,11 @@ import { APP_NAME } from '@/lib/constants'
 export default function Footer() {
   
   return (
-    <footer className='bg-black  text-white underline-link'>
+    <footer className='bg-gray-500  text-white underline-link'>
       <div className='w-full'>
         <Button
           variant='ghost'
-          className='bg-gray-800 w-full  rounded-none '
+          className='bg-gray-300 w-full  rounded-none '
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <ChevronUp className='mr-2 h-4 w-4' />
             Back to top

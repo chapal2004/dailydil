@@ -11,7 +11,7 @@ import { MenuIcon } from 'lucide-react'
 export default async function Header() {
  
   return (
-    <header className='bg-black  text-white'>
+    <header className='bg-slate-400 text-white'>
       <div className='px-2'>
         <div className='flex items-center justify-between'>
           <div className='flex items-center'>
@@ -20,9 +20,9 @@ export default async function Header() {
               className='flex items-center header-button font-extrabold text-2xl m-1 '
             >
               <Image
-                src='/public/icons/logo001.png'
-                width={40}
-                height={40}
+                src='/icons/d-logo1.svg'
+                width={60}
+                height={60}
                 alt={`${APP_NAME} logo`}
               />
               {APP_NAME}
@@ -39,14 +39,14 @@ export default async function Header() {
         </div>
       </div>
 
-      <div className='flex items-center px-3 mb-[1px]  bg-gray-800'>
-        <Button variant='ghost' className='header-button flex items-center gap-1 text-base [&_svg]:size-6'>
+      <div className='flex items-center px-3 mb-[1px]  bg-gray-500'>
+        <Button variant='ghost' className='dark header-button flex items-center gap-1 text-base [&_svg]:size-6'>
             <MenuIcon />
             All
         </Button>
 
        
-        <div className='flex items-center flex-wrap gap-3 overflow-hidden   max-h-[42px]'>
+        <div className='flex items-center flex-wrap gap-3 overflow-hidden max-h-[42px]'>
           {data.headeerMenus.map((menu) => (
             <Link
               href={menu.herf}

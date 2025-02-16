@@ -47,10 +47,10 @@ export default async function Header() {
 
        
         <div className='flex items-center flex-wrap gap-3 overflow-hidden max-h-[42px]'>
-          {data.headeerMenus.map((menu) => (
+          {data.headerMenus.map((menu) => (
             <Link
-              href={menu.herf}
-              key={menu.herf}
+              href={menu.href}
+              key={menu.href}
               className='header-button !p-2 '
             >
               {menu.name}

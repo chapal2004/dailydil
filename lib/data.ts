@@ -2,7 +2,7 @@ import { Data, IProductInput } from "@/types"
 import { toSlug } from "./utils"
 
 const products: IProductInput[]= [
- {
+  {
     name: 'Nike Mens Slim-fit Long-Sleeve T-Shirt',
     slug: toSlug('Nike Mens Slim-fit Long-Sleeve T-Shirt'),
     category: 'T-Shirts',
@@ -529,9 +529,182 @@ const products: IProductInput[]= [
     reviews: [],
   },
   // Sneakers
-  
+  {
+    name: 'adidas Mens Grand Court 2.0 Training Shoes Training Shoes',
+    slug: toSlug('adidas Mens Grand Court 2.0 Training Shoes Training Shoes'),
+    category: 'Shoes',
+    brand: 'adidas',
+    images: ['/images/p41-1.jpg', '/images/p41-2.jpg'],
+    tags: ['new-arrival'],
+    isPublished: true,
+    price: 81.99,
+    listPrice: 0,
+    avgRating: 4.71,
+    numReviews: 7,
+    ratingDistribution: [
+      { rating: 1, count: 0 },
+      { rating: 2, count: 0 },
+      { rating: 3, count: 0 },
+      { rating: 4, count: 2 },
+      { rating: 5, count: 5 },
+    ],
+    countInStock: 41,
+    numSales: 48,
+    description:
+      'Cloudfoam Comfort sockliner is ultra-soft and plush, with two layers of cushioning topped with soft, breathable mesh',
+    sizes: ['8', '9', '10'],
+    colors: ['White', 'Black', 'Grey'],
 
+    reviews: [],
+  },
+  {
+    name: "ziitop Men's Running Walking Shoes Fashion Sneakers Mesh Dress Shoes Business Oxfords Shoes Lightweight Casual Breathable Work Formal Shoes",
+    slug: toSlug(
+      "ziitop Men's Running Walking Shoes Fashion Sneakers Mesh Dress Shoes Business Oxfords Shoes Lightweight Casual Breathable Work Formal Shoes"
+    ),
+    category: 'Shoes',
+    brand: 'ziitop',
+    images: ['/images/p42-1.jpg', '/images/p42-2.jpg'],
+    tags: ['featured'],
+    isPublished: true,
+    price: 39.97,
+    listPrice: 49.96,
+    avgRating: 4.2,
+    numReviews: 10,
+    ratingDistribution: [
+      { rating: 1, count: 1 },
+      { rating: 2, count: 0 },
+      { rating: 3, count: 0 },
+      { rating: 4, count: 4 },
+      { rating: 5, count: 5 },
+    ],
+    countInStock: 42,
+    numSales: 50,
+    description:
+      'Cloudfoam Comfort sockliner is ultra-soft and plush, with two layers of cushioning topped with soft, breathable mesh',
+    sizes: ['8', '9', '10'],
+    colors: ['Beige', 'Black', 'Grey'],
 
+    reviews: [],
+  },
+  {
+    name: 'Skechers mens Summits High Range Hands Free Slip-in Shoes Work shoe',
+    slug: toSlug(
+      'Skechers mens Summits High Range Hands Free Slip-in Shoes Work shoe'
+    ),
+    category: 'Shoes',
+    brand: 'Skechers',
+    images: ['/images/p43-1.jpg', '/images/p43-2.jpg'],
+    tags: ['best-seller'],
+    isPublished: true,
+    price: 99.99,
+    listPrice: 0,
+    avgRating: 4,
+    numReviews: 12,
+    ratingDistribution: [
+      { rating: 1, count: 1 },
+      { rating: 2, count: 0 },
+      { rating: 3, count: 2 },
+      { rating: 4, count: 4 },
+      { rating: 5, count: 5 },
+    ],
+    countInStock: 43,
+    numSales: 72,
+    description:
+      'Step into easy-wearing comfort with Skechers Hands Free Slip-ins™: Summits - High Range. Along with our Exclusive Heel Pillow™ holds your foot securely in place, this vegan style features a unique pop-up Skechers Slip-ins™ molded heel panel, a mesh upper with fixed laces',
+    sizes: ['8', '9', '10'],
+    colors: ['Navy', 'Black', 'Grey'],
+
+    reviews: [],
+  },
+  {
+    name: 'DLWKIPV Mens Running Shoes Tennis Cross Training Sneakers Fashion Non Slip Outdoor Walking Jogging Shoes Mesh Light Flexible Comfortable Breathable Shoes',
+    slug: toSlug(
+      'DLWKIPV Mens Running Shoes Tennis Cross Training Sneakers Fashion Non Slip Outdoor Walking Jogging Shoes Mesh Light Flexible Comfortable Breathable Shoes'
+    ),
+    category: 'Shoes',
+    brand: 'DLWKIPV',
+    images: ['/images/p44-1.jpg', '/images/p44-2.jpg'],
+    tags: ['todays-deal'],
+    isPublished: true,
+    price: 36.99,
+    listPrice: 56.9,
+    avgRating: 3.85,
+    numReviews: 14,
+    ratingDistribution: [
+      { rating: 1, count: 0 },
+      { rating: 2, count: 2 },
+      { rating: 3, count: 3 },
+      { rating: 4, count: 4 },
+      { rating: 5, count: 5 },
+    ],
+    countInStock: 44,
+    numSales: 72,
+    description:
+      'Design: Mesh vamp, ventilation. Sole anti-slip groove design, shock absorption and anti-slip. The inside of the shoe is wide and soft, bringing you a good comfortable experience',
+    sizes: ['8', '9', '10', '11', '12'],
+    colors: ['Brown', 'Black', 'Grey'],
+
+    reviews: [],
+  },
+  {
+    name: "ASICS Men's GT-2000 13 Running Shoes",
+    slug: toSlug("ASICS Men's GT-2000 13 Running Shoes"),
+    category: 'Shoes',
+    brand: 'ASICS',
+    images: ['/images/p45-1.jpg', '/images/p45-2.jpg'],
+    tags: ['new-arrival', 'featured'],
+    isPublished: true,
+    price: 179.95,
+    listPrice: 200,
+    avgRating: 3.66,
+    numReviews: 15,
+    ratingDistribution: [
+      { rating: 1, count: 1 },
+      { rating: 2, count: 2 },
+      { rating: 3, count: 3 },
+      { rating: 4, count: 4 },
+      { rating: 5, count: 5 },
+    ],
+    countInStock: 45,
+    numSales: 64,
+    description:
+      "At least 50% of the shoe's main upper material is made with recycled content to reduce waste and carbon emissions",
+    sizes: ['8', '9', '10', '11'],
+    colors: ['Blue', 'Black', 'Grey'],
+
+    reviews: [],
+  },
+  {
+    name: "Mens Wearbreeze Shoes, Urban - Ultra Comfortable Shoes, Breeze Shoes for Men, Men's Mesh Dress Sneakers Business Shoes",
+    slug: toSlug(
+      "Mens Wearbreeze Shoes, Urban - Ultra Comfortable Shoes, Breeze Shoes for Men, Men's Mesh Dress Sneakers Business Shoes"
+    ),
+    category: 'Shoes',
+    brand: 'Generic',
+    images: ['/images/p46-1.jpg', '/images/p46-2.jpg'],
+    tags: ['best-seller', 'todays-deal'],
+    isPublished: true,
+    price: 32.99,
+    listPrice: 80,
+    avgRating: 3.46,
+    numReviews: 13,
+    ratingDistribution: [
+      { rating: 1, count: 1 },
+      { rating: 2, count: 2 },
+      { rating: 3, count: 3 },
+      { rating: 4, count: 4 },
+      { rating: 5, count: 3 },
+    ],
+    countInStock: 46,
+    numSales: 48,
+    description:
+      'Cloudfoam Comfort sockliner is ultra-soft and plush, with two layers of cushioning topped with soft, breathable mesh',
+    sizes: ['8', '9', '10', '11'],
+    colors: ['Green', 'Black', 'Grey'],
+
+    reviews: [],
+  },
 ]
 
 const data: Data = {

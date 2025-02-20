@@ -15,12 +15,13 @@ export default async function page() {
     tag: 'featured',
     limit: 4,
   })
-  const bestSellers = await getProductsForCard({
+
+   const bestSellers = await getProductsForCard({
     tag: 'best-seller',
     limit: 4,
   })
 
-  const cards = [
+   const cards = [
     {
       title: ('Categories to explore'),
       link: {

@@ -18,7 +18,7 @@ const main = async () => {
 
     console.log({
         createdProducts,
-        message: 'seeded database successfully'
+        message: 'eeded database successfully'
     })
 
     process.exit(0)

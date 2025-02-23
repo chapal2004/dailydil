@@ -16,6 +16,7 @@ import AddToBrowsingHistory from '@/components/shared/product/add-to-browsing-hi
 export async function generateMetadata(props: {
   params: Promise<{ slug: string }>
 }) {
+  
   const params = await props.params
   const product = await getProductBySlug(params.slug)
   if (!product) {
